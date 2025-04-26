@@ -1,508 +1,480 @@
 === Packet Capture Log ===
 
 Packet #1
-  src_ip: 0.81.160.63
-  dst_ip: 104.170.84.92
+  src_ip: 10.0.2.15
+  dst_ip: 104.18.8.9
   type: TCP
-  src_port: 24583
-  dst_port: 43409
-  sequence: 2098752
-  acknowledgment: 604402688
+  src_port: 43480
+  dst_port: 443
+  sequence: 751497735
+  acknowledgment: 148864871
 
 Packet #2
-  src_ip: 0.9.0.0
-  dst_ip: 0.0.0.0
+  src_ip: 104.18.8.9
+  dst_ip: 10.0.2.15
   type: TCP
-  src_port: 24580
-  dst_port: 30887
-  sequence: 2098749
-  acknowledgment: 604402688
+  src_port: 443
+  dst_port: 43480
+  sequence: 148864871
+  acknowledgment: 751497774
 
 Packet #3
-  src_ip: 192.168.0.1
-  dst_ip: 192.168.0.104
-  type: UDP
-  src_port: 40766
-  dst_port: 137
-  length: 58
+  src_ip: 104.18.8.9
+  dst_ip: 10.0.2.15
+  type: TCP
+  src_port: 443
+  dst_port: 43480
+  sequence: 148864871
+  acknowledgment: 751497774
 
 Packet #4
-  src_ip: 0.81.160.63
-  dst_ip: 104.170.84.92
+  src_ip: 10.0.2.15
+  dst_ip: 104.18.8.9
   type: TCP
-  src_port: 24585
-  dst_port: 4817
-  sequence: 2098752
-  acknowledgment: 604402688
+  src_port: 43480
+  dst_port: 443
+  sequence: 751497774
+  acknowledgment: 148864910
 
 Packet #5
-  src_ip: 0.9.0.0
-  dst_ip: 0.0.0.0
-  type: TCP
-  src_port: 24587
-  dst_port: 14104
-  sequence: 2098749
-  acknowledgment: 604402688
+  src_ip: 10.0.2.15
+  dst_ip: 10.0.2.3
+  type: UDP
+  src_port: 43497
+  dst_port: 53
+  length: 40
 
 Packet #6
-  src_ip: 192.168.0.1
-  dst_ip: 192.168.0.104
+  src_ip: 10.0.2.15
+  dst_ip: 10.0.2.3
   type: UDP
-  src_port: 38090
-  dst_port: 137
-  length: 58
+  src_port: 43497
+  dst_port: 53
+  length: 40
 
 Packet #7
-  src_ip: 192.168.0.104
-  dst_ip: 49.205.72.130
+  src_ip: 10.0.2.3
+  dst_ip: 10.0.2.15
   type: UDP
-  src_port: 52015
-  dst_port: 53
-  length: 57
+  src_port: 53
+  dst_port: 43497
+  length: 56
 
 Packet #8
-  src_ip: 192.168.0.104
-  dst_ip: 49.205.72.130
+  src_ip: 10.0.2.3
+  dst_ip: 10.0.2.15
   type: UDP
-  src_port: 52015
-  dst_port: 53
-  length: 57
+  src_port: 53
+  dst_port: 43497
+  length: 68
 
 Packet #9
-  src_ip: 49.205.72.130
-  dst_ip: 192.168.0.104
-  type: UDP
-  src_port: 53
-  dst_port: 52015
-  length: 73
+  src_ip: 10.0.2.15
+  dst_ip: 142.250.70.68
+  type: TCP
+  src_port: 39786
+  dst_port: 443
+  sequence: 2430855965
+  acknowledgment: 0
 
 Packet #10
-  src_ip: 49.205.72.130
-  dst_ip: 192.168.0.104
-  type: UDP
-  src_port: 53
-  dst_port: 52015
-  length: 85
+  src_ip: 142.250.70.68
+  dst_ip: 10.0.2.15
+  type: TCP
+  src_port: 443
+  dst_port: 39786
+  sequence: 164352001
+  acknowledgment: 2430855966
 
 Packet #11
-  src_ip: 0.81.160.63
-  dst_ip: 104.170.84.92
+  src_ip: 10.0.2.15
+  dst_ip: 142.250.70.68
   type: TCP
-  src_port: 24579
-  dst_port: 20732
-  sequence: 88150336
-  acknowledgment: 604402688
+  src_port: 39786
+  dst_port: 443
+  sequence: 2430855966
+  acknowledgment: 164352002
 
 Packet #12
-  src_ip: 0.81.160.63
-  dst_ip: 104.170.84.92
+  src_ip: 10.0.2.15
+  dst_ip: 142.250.70.68
   type: TCP
-  src_port: 24577
-  dst_port: 42739
-  sequence: 88150336
-  acknowledgment: 604402688
+  src_port: 39786
+  dst_port: 443
+  sequence: 2430855966
+  acknowledgment: 164352002
 
 Packet #13
-  src_ip: 0.81.160.63
-  dst_ip: 104.170.84.92
+  src_ip: 142.250.70.68
+  dst_ip: 10.0.2.15
   type: TCP
-  src_port: 24579
-  dst_port: 20732
-  sequence: 3150144
-  acknowledgment: 604402688
+  src_port: 443
+  dst_port: 39786
+  sequence: 164352002
+  acknowledgment: 2430856628
 
 Packet #14
-  src_ip: 0.81.160.63
-  dst_ip: 104.170.84.92
+  src_ip: 10.0.2.15
+  dst_ip: 142.250.70.68
   type: TCP
-  src_port: 24577
-  dst_port: 42739
-  sequence: 3150144
-  acknowledgment: 604402688
+  src_port: 39786
+  dst_port: 443
+  sequence: 2430856628
+  acknowledgment: 164352002
 
 Packet #15
-  src_ip: 0.81.160.63
-  dst_ip: 104.170.84.92
+  src_ip: 142.250.70.68
+  dst_ip: 10.0.2.15
   type: TCP
-  src_port: 24579
-  dst_port: 20732
-  sequence: 3281216
-  acknowledgment: 604402688
+  src_port: 443
+  dst_port: 39786
+  sequence: 164352002
+  acknowledgment: 2430856629
 
 Packet #16
-  src_ip: 0.81.160.63
-  dst_ip: 104.170.84.92
+  src_ip: 10.0.2.15
+  dst_ip: 142.250.70.68
   type: TCP
-  src_port: 24577
-  dst_port: 42739
-  sequence: 3281216
-  acknowledgment: 604402688
+  src_port: 39802
+  dst_port: 443
+  sequence: 1127811663
+  acknowledgment: 0
 
 Packet #17
-  src_ip: 0.81.160.63
-  dst_ip: 104.170.84.92
+  src_ip: 142.250.70.68
+  dst_ip: 10.0.2.15
   type: TCP
-  src_port: 24579
-  dst_port: 20732
-  sequence: 3346752
-  acknowledgment: 604402688
+  src_port: 443
+  dst_port: 39802
+  sequence: 164416001
+  acknowledgment: 1127811664
 
 Packet #18
-  src_ip: 0.81.160.63
-  dst_ip: 104.170.84.92
+  src_ip: 10.0.2.15
+  dst_ip: 142.250.70.68
   type: TCP
-  src_port: 24577
-  dst_port: 42739
-  sequence: 3281216
-  acknowledgment: 604402688
+  src_port: 39802
+  dst_port: 443
+  sequence: 1127811664
+  acknowledgment: 164416002
 
 Packet #19
-  src_ip: 0.81.160.63
-  dst_ip: 104.170.84.92
+  src_ip: 10.0.2.15
+  dst_ip: 142.250.70.68
   type: TCP
-  src_port: 24577
-  dst_port: 42739
-  sequence: 3346752
-  acknowledgment: 604402688
+  src_port: 39802
+  dst_port: 443
+  sequence: 1127811664
+  acknowledgment: 164416002
 
 Packet #20
-  src_ip: 0.81.160.63
-  dst_ip: 104.170.84.92
+  src_ip: 142.250.70.68
+  dst_ip: 10.0.2.15
   type: TCP
-  src_port: 24579
-  dst_port: 20732
-  sequence: 3150144
-  acknowledgment: 604402688
+  src_port: 443
+  dst_port: 39802
+  sequence: 164416002
+  acknowledgment: 1127812326
 
 Packet #21
-  src_ip: 0.81.160.63
-  dst_ip: 104.170.84.92
+  src_ip: 142.250.70.68
+  dst_ip: 10.0.2.15
   type: TCP
-  src_port: 24579
-  dst_port: 20732
-  sequence: 3150144
-  acknowledgment: 604402688
+  src_port: 443
+  dst_port: 39786
+  sequence: 164352002
+  acknowledgment: 2430856629
 
 Packet #22
-  src_ip: 0.81.160.63
-  dst_ip: 104.170.84.92
+  src_ip: 10.0.2.15
+  dst_ip: 142.250.70.68
   type: TCP
-  src_port: 24577
-  dst_port: 42739
-  sequence: 3150144
-  acknowledgment: 604402688
+  src_port: 39786
+  dst_port: 443
+  sequence: 2430856629
+  acknowledgment: 0
 
 Packet #23
-  src_ip: 0.81.160.63
-  dst_ip: 104.170.84.92
+  src_ip: 142.250.70.68
+  dst_ip: 10.0.2.15
   type: TCP
-  src_port: 24577
-  dst_port: 42739
-  sequence: 3150144
-  acknowledgment: 604402688
+  src_port: 443
+  dst_port: 39802
+  sequence: 164416002
+  acknowledgment: 1127812326
 
 Packet #24
-  src_ip: 0.81.160.63
-  dst_ip: 104.170.84.92
+  src_ip: 10.0.2.15
+  dst_ip: 142.250.70.68
   type: TCP
-  src_port: 24577
-  dst_port: 42739
-  sequence: 9113920
-  acknowledgment: 604402688
+  src_port: 39802
+  dst_port: 443
+  sequence: 1127812326
+  acknowledgment: 164418882
 
 Packet #25
-  src_ip: 0.81.160.63
-  dst_ip: 104.170.84.92
+  src_ip: 142.250.70.68
+  dst_ip: 10.0.2.15
   type: TCP
-  src_port: 24577
-  dst_port: 42739
-  sequence: 5181760
-  acknowledgment: 604402688
+  src_port: 443
+  dst_port: 39802
+  sequence: 164418882
+  acknowledgment: 1127812326
 
 Packet #26
-  src_ip: 0.81.160.63
-  dst_ip: 104.170.84.92
+  src_ip: 10.0.2.15
+  dst_ip: 142.250.70.68
   type: TCP
-  src_port: 24579
-  dst_port: 20732
-  sequence: 9113920
-  acknowledgment: 604402688
+  src_port: 39802
+  dst_port: 443
+  sequence: 1127812326
+  acknowledgment: 164420101
 
 Packet #27
-  src_ip: 0.81.160.63
-  dst_ip: 104.170.84.92
-  type: TCP
-  src_port: 24579
-  dst_port: 20732
-  sequence: 5181760
-  acknowledgment: 604402688
+  src_ip: 10.0.2.15
+  dst_ip: 10.0.2.3
+  type: UDP
+  src_port: 47064
+  dst_port: 53
+  length: 36
 
 Packet #28
-  src_ip: 0.81.160.63
-  dst_ip: 104.170.84.92
-  type: TCP
-  src_port: 24577
-  dst_port: 42739
-  sequence: 23859520
-  acknowledgment: 604402688
+  src_ip: 10.0.2.15
+  dst_ip: 10.0.2.3
+  type: UDP
+  src_port: 47064
+  dst_port: 53
+  length: 36
 
 Packet #29
-  src_ip: 0.81.160.63
-  dst_ip: 104.170.84.92
+  src_ip: 10.0.2.15
+  dst_ip: 142.250.70.68
   type: TCP
-  src_port: 24577
-  dst_port: 42739
-  sequence: 2560320
-  acknowledgment: 604402688
+  src_port: 39802
+  dst_port: 443
+  sequence: 1127812326
+  acknowledgment: 164420101
 
 Packet #30
-  src_ip: 0.81.160.63
-  dst_ip: 104.170.84.92
+  src_ip: 142.250.70.68
+  dst_ip: 10.0.2.15
   type: TCP
-  src_port: 24579
-  dst_port: 20732
-  sequence: 2560320
-  acknowledgment: 604402688
+  src_port: 443
+  dst_port: 39802
+  sequence: 164420101
+  acknowledgment: 1127812327
 
 Packet #31
-  src_ip: 0.81.160.63
-  dst_ip: 104.170.84.92
-  type: TCP
-  src_port: 24577
-  dst_port: 42739
-  sequence: 2560320
-  acknowledgment: 604402688
+  src_ip: 10.0.2.3
+  dst_ip: 10.0.2.15
+  type: UDP
+  src_port: 53
+  dst_port: 47064
+  length: 87
 
 Packet #32
-  src_ip: 0.81.160.63
-  dst_ip: 104.170.84.92
-  type: TCP
-  src_port: 24577
-  dst_port: 42739
-  sequence: 3150144
-  acknowledgment: 604402688
+  src_ip: 10.0.2.3
+  dst_ip: 10.0.2.15
+  type: UDP
+  src_port: 53
+  dst_port: 47064
+  length: 99
 
 Packet #33
-  src_ip: 0.81.160.63
-  dst_ip: 104.170.84.92
+  src_ip: 10.0.2.15
+  dst_ip: 142.250.199.131
   type: TCP
-  src_port: 24579
-  dst_port: 20732
-  sequence: 88150336
-  acknowledgment: 604402688
+  src_port: 35562
+  dst_port: 80
+  sequence: 388709378
+  acknowledgment: 0
 
 Packet #34
-  src_ip: 0.81.160.63
-  dst_ip: 104.170.84.92
+  src_ip: 142.250.70.68
+  dst_ip: 10.0.2.15
   type: TCP
-  src_port: 24579
-  dst_port: 20732
-  sequence: 54137152
-  acknowledgment: 604402688
+  src_port: 443
+  dst_port: 39802
+  sequence: 164420101
+  acknowledgment: 1127812327
 
 Packet #35
-  src_ip: 0.81.160.63
-  dst_ip: 104.170.84.92
+  src_ip: 10.0.2.15
+  dst_ip: 142.250.70.68
   type: TCP
-  src_port: 24579
-  dst_port: 20732
-  sequence: 2560320
-  acknowledgment: 604402688
+  src_port: 39802
+  dst_port: 443
+  sequence: 1127812327
+  acknowledgment: 164420102
 
 Packet #36
-  src_ip: 0.81.160.63
-  dst_ip: 104.170.84.92
-  type: TCP
-  src_port: 24579
-  dst_port: 20732
-  sequence: 3019072
-  acknowledgment: 604402688
-
-Packet #37
-  src_ip: 0.81.160.63
-  dst_ip: 104.170.84.92
-  type: TCP
-  src_port: 24588
-  dst_port: 21176
-  sequence: 2098752
-  acknowledgment: 604402688
-
-Packet #38
-  src_ip: 192.168.0.104
-  dst_ip: 34.107.221.82
-  type: TCP
-  src_port: 44652
-  dst_port: 80
-  sequence: 1439375499
-  acknowledgment: 1169516978
-
-Packet #39
-  src_ip: 34.107.221.82
-  dst_ip: 192.168.0.104
+  src_ip: 142.250.199.131
+  dst_ip: 10.0.2.15
   type: TCP
   src_port: 80
-  dst_port: 44652
-  sequence: 1169516978
-  acknowledgment: 1439375500
+  dst_port: 35562
+  sequence: 164480001
+  acknowledgment: 388709379
+
+Packet #37
+  src_ip: 10.0.2.15
+  dst_ip: 142.250.199.131
+  type: TCP
+  src_port: 35562
+  dst_port: 80
+  sequence: 388709379
+  acknowledgment: 164480002
+
+Packet #38
+  src_ip: 10.0.2.15
+  dst_ip: 142.250.199.131
+  type: TCP
+  src_port: 35562
+  dst_port: 80
+  sequence: 388709379
+  acknowledgment: 164480002
+
+Packet #39
+  src_ip: 142.250.199.131
+  dst_ip: 10.0.2.15
+  type: TCP
+  src_port: 80
+  dst_port: 35562
+  sequence: 164480002
+  acknowledgment: 388709806
 
 Packet #40
-  src_ip: 0.81.160.63
-  dst_ip: 104.170.84.92
+  src_ip: 10.0.2.15
+  dst_ip: 142.250.70.68
   type: TCP
-  src_port: 24590
-  dst_port: 64876
-  sequence: 2098752
-  acknowledgment: 604402688
+  src_port: 39812
+  dst_port: 443
+  sequence: 846677176
+  acknowledgment: 0
 
 Packet #41
-  src_ip: 0.81.160.63
-  dst_ip: 104.170.84.92
+  src_ip: 142.250.70.68
+  dst_ip: 10.0.2.15
   type: TCP
-  src_port: 24576
-  dst_port: 35505
-  sequence: 88150336
-  acknowledgment: 604402688
+  src_port: 443
+  dst_port: 39812
+  sequence: 164544001
+  acknowledgment: 846677177
 
 Packet #42
-  src_ip: 0.81.160.63
-  dst_ip: 104.170.84.92
+  src_ip: 10.0.2.15
+  dst_ip: 142.250.70.68
   type: TCP
-  src_port: 24576
-  dst_port: 35505
-  sequence: 88150336
-  acknowledgment: 604402688
+  src_port: 39812
+  dst_port: 443
+  sequence: 846677177
+  acknowledgment: 164544002
 
 Packet #43
-  src_ip: 0.81.160.63
-  dst_ip: 104.170.84.92
+  src_ip: 10.0.2.15
+  dst_ip: 142.250.70.68
   type: TCP
-  src_port: 24576
-  dst_port: 35505
-  sequence: 57348416
-  acknowledgment: 604402688
+  src_port: 39812
+  dst_port: 443
+  sequence: 846677177
+  acknowledgment: 164544002
 
 Packet #44
-  src_ip: 0.81.160.63
-  dst_ip: 104.170.84.92
+  src_ip: 142.250.70.68
+  dst_ip: 10.0.2.15
   type: TCP
-  src_port: 24576
-  dst_port: 35505
-  sequence: 2625856
-  acknowledgment: 604402688
+  src_port: 443
+  dst_port: 39812
+  sequence: 164544002
+  acknowledgment: 846677839
 
 Packet #45
-  src_ip: 0.81.160.63
-  dst_ip: 104.170.84.92
+  src_ip: 142.250.199.131
+  dst_ip: 10.0.2.15
   type: TCP
-  src_port: 24576
-  dst_port: 35505
-  sequence: 2953536
-  acknowledgment: 604402688
+  src_port: 80
+  dst_port: 35562
+  sequence: 164480002
+  acknowledgment: 388709806
 
 Packet #46
-  src_ip: 0.81.160.63
-  dst_ip: 104.170.84.92
+  src_ip: 10.0.2.15
+  dst_ip: 142.250.199.131
   type: TCP
-  src_port: 24576
-  dst_port: 35505
-  sequence: 88150336
-  acknowledgment: 604402688
+  src_port: 35562
+  dst_port: 80
+  sequence: 388709806
+  acknowledgment: 164480703
 
 Packet #47
-  src_ip: 0.81.160.63
-  dst_ip: 104.170.84.92
+  src_ip: 142.250.70.68
+  dst_ip: 10.0.2.15
   type: TCP
-  src_port: 24576
-  dst_port: 35505
-  sequence: 64033088
-  acknowledgment: 604402688
+  src_port: 443
+  dst_port: 39812
+  sequence: 164544002
+  acknowledgment: 846677839
 
 Packet #48
-  src_ip: 0.81.160.63
-  dst_ip: 104.170.84.92
+  src_ip: 10.0.2.15
+  dst_ip: 142.250.70.68
   type: TCP
-  src_port: 24576
-  dst_port: 35505
-  sequence: 2625856
-  acknowledgment: 604402688
+  src_port: 39812
+  dst_port: 443
+  sequence: 846677839
+  acknowledgment: 164546882
 
 Packet #49
-  src_ip: 0.81.160.63
-  dst_ip: 104.170.84.92
+  src_ip: 142.250.70.68
+  dst_ip: 10.0.2.15
   type: TCP
-  src_port: 24576
-  dst_port: 35505
-  sequence: 3346752
-  acknowledgment: 604402688
+  src_port: 443
+  dst_port: 39812
+  sequence: 164546882
+  acknowledgment: 846677839
 
 Packet #50
-  src_ip: 0.81.160.63
-  dst_ip: 104.170.84.92
+  src_ip: 10.0.2.15
+  dst_ip: 142.250.70.68
   type: TCP
-  src_port: 24576
-  dst_port: 35505
-  sequence: 2625856
-  acknowledgment: 604402688
+  src_port: 39812
+  dst_port: 443
+  sequence: 846677839
+  acknowledgment: 164548101
 
 === Traffic Analysis Summary ===
 Top Destination IPs:
-  104.170.84.92: 40 packets
-  192.168.0.104: 5 packets
-  0.0.0.0: 2 packets
-  49.205.72.130: 2 packets
-  34.107.221.82: 1 packets
+  10.0.2.15: 23 packets
+  142.250.70.68: 17 packets
+  10.0.2.3: 4 packets
+  142.250.199.131: 4 packets
+  104.18.8.9: 2 packets
 
 Most Targeted Ports:
-  Port 20732: 13 packets
-  Port 42739: 13 packets
-  Port 35505: 10 packets
-  Port 137: 2 packets
-  Port 53: 2 packets
+  Port 443: 19 packets
+  Port 39802: 6 packets
+  Port 53: 4 packets
+  Port 39786: 4 packets
+  Port 80: 4 packets
 
 Protocol Usage:
-  TCP: 44 packets
-  UDP: 6 packets
+  TCP: 42 packets
+  UDP: 8 packets
 
-=== Nmap Scan for Packet #7 — 49.205.72.130 ===
-Starting Nmap 7.95 ( https://nmap.org ) at 2025-04-21 18:35 IST
-Nmap scan report for 49.205.72.130.actcorp.in (49.205.72.130)
-Host is up (0.0055s latency).
-Not shown: 998 closed tcp ports (reset)
-PORT   STATE    SERVICE
-22/tcp filtered ssh
-53/tcp open     domain
+=== Nmap Scan for Packet #4 — 104.18.8.9 ===
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-04-22 11:26 IST
+Nmap scan report for 104.18.8.9
+Host is up (0.012s latency).
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE SERVICE       VERSION
+80/tcp   open  http          Cloudflare http proxy
+443/tcp  open  ssl/https     cloudflare
+8080/tcp open  http          Cloudflare http proxy
+8443/tcp open  ssl/https-alt cloudflare
 
-Nmap done: 1 IP address (1 host up) scanned in 6.99 seconds
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 13.21 seconds
 
-📊 Security Insights:
-⚠️ Open ports detected: 53
-==================================================
-
-=== Nmap Scan for Packet #39 — 192.168.0.104 ===
-Starting Nmap 7.95 ( https://nmap.org ) at 2025-04-21 18:35 IST
-Nmap scan report for 192.168.0.104
-Host is up (0.0000030s latency).
-All 1000 scanned ports on 192.168.0.104 are in ignored states.
-Not shown: 1000 closed tcp ports (reset)
-
-Nmap done: 1 IP address (1 host up) scanned in 5.68 seconds
-
-📊 Security Insights:
-✅ Host appears secure or behind a firewall (no open TCP ports detected).
-==================================================
-
-=== Nmap Scan for Packet #38 — 34.107.221.82 ===
-Starting Nmap 7.95 ( https://nmap.org ) at 2025-04-21 18:36 IST
-Nmap scan report for 82.221.107.34.bc.googleusercontent.com (34.107.221.82)
-Host is up (0.011s latency).
-Not shown: 998 filtered tcp ports (no-response)
-PORT    STATE SERVICE
-80/tcp  open  http
-443/tcp open  https
-
-Nmap done: 1 IP address (1 host up) scanned in 13.75 seconds
-
-📊 Security Insights:
-⚠️ Open ports detected: 80, 443
-🌐 Standard web ports open (80/443). Typical for web servers.
+ Security Insights:
+Open ports detected: 80, 443, 8080, 8443
 ==================================================

@@ -114,7 +114,7 @@ def traffic_analysis():
         port_counter[pkt['dst_port']] += 1
         protocol_counter[pkt['type']] += 1
 
-    print("\n📊 Traffic Analysis Summary:")
+    print("\n Traffic Analysis Summary:")
     with open(LOG_FILE, "a") as f:
         f.write("=== Traffic Analysis Summary ===\n")
         f.write("Top Destination IPs:\n")
@@ -147,15 +147,15 @@ def analyze_nmap_output(output):
                 open_ports.append(port)
 
     if not open_ports:
-        insights.append("✅ Host appears secure or behind a firewall (no open TCP ports detected).")
+        insights.append(" Host appears secure or behind a firewall (no open TCP ports detected).")
     else:
-        insights.append("⚠️ Open ports detected: " + ", ".join(map(str, open_ports)))
+        insights.append("Open ports detected: " + ", ".join(map(str, open_ports)))
         if any(p in open_ports for p in [22, 23, 3389]):
-            insights.append("🔐 Remote access service detected (e.g., SSH/RDP). Ensure authentication and firewalls are strong.")
+            insights.append(" Remote access service detected (e.g., SSH/RDP). Ensure authentication and firewalls are strong.")
         if len(open_ports) > 5:
-            insights.append("🛡️ Multiple open ports indicate a broader attack surface. Limit exposure if not necessary.")
+            insights.append("Multiple open ports indicate a broader attack surface. Limit exposure if not necessary.")
         if set(open_ports).issubset({80, 443}):
-            insights.append("🌐 Standard web ports open (80/443). Typical for web servers.")
+            insights.append("Standard web ports open (80/443). Typical for web servers.")
 
     return "\n".join(insights)
 
@@ -172,7 +172,7 @@ def show_packet_details():
         idx = int(choice)
         if 1 <= idx <= len(captured_packets):
             pkt = captured_packets[idx - 1]
-            print(f"\n📦 Details of Packet #{idx}")
+            print(f"\n Details of Packet #{idx}")
             print(f"  Type              : {pkt.get('type', 'N/A')}")
             print(f"  Source IP         : {pkt.get('src_ip', 'N/A')}")
             print(f"  Source Host       : {resolve_hostname(pkt.get('src_ip', ''))}")
@@ -186,22 +186,22 @@ def show_packet_details():
             elif pkt['type'] == 'UDP':
                 print(f"  Length            : {pkt.get('length', 'N/A')}")
 
-            # 🧠 Run Nmap scan on destination IP
+            # Run Nmap scan on destination IP
             dst_ip = pkt.get("dst_ip")
             print(f"\n[*] Running Nmap scan on {dst_ip}...\n")
             try:
-                result = subprocess.run(["nmap", "-Pn", dst_ip], capture_output=True, text=True, timeout=15)
+                result = subprocess.run(["nmap", "-sV", dst_ip], capture_output=True, text=True, timeout=15)
                 nmap_output = result.stdout
                 insight = analyze_nmap_output(nmap_output)
 
                 print(nmap_output)
-                print("📊 Security Insights:")
+                print("Security Insights:")
                 print(insight)
 
                 with open(LOG_FILE, "a") as f:
                     f.write(f"\n=== Nmap Scan for Packet #{idx} — {dst_ip} ===\n")
                     f.write(nmap_output)
-                    f.write("\n📊 Security Insights:\n")
+                    f.write("\n Security Insights:\n")
                     f.write(insight)
                     f.write("\n" + "="*50 + "\n")
             except Exception as e:
